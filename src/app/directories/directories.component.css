@@ -1,0 +1,14 @@
+.directories {
+    width: 225px;
+    padding:1px;
+}
+
+.list-element {
+    display: flex;
+    justify-content: start;
+    padding-left: 5px;
+}
+
+.mat-tree-node {
+    background-color: rgba(211, 211, 211, 0.5);
+}

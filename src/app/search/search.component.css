@@ -1,0 +1,21 @@
+input {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+}
+
+input:focus {
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: rgb(89, 89, 255);
+}
