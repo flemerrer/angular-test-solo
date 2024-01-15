@@ -1,7 +1,13 @@
 <div class="mails-list">
+  @if (emailsList.length > 0) {
     <ul>
+      @for (email of emailsList; track $index) {
         <li>
-            this is an email
-        </li> 
+          <app-email-card [email]="email"/>
+        </li>
+      }
     </ul>
+  } @else {
+    <p>no mails to display.</p>
+  }
 </div>

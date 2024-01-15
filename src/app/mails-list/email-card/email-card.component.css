@@ -1,0 +1,7 @@
+mat-card {
+    border-radius: 0;
+}
+
+mat-card:hover {
+    background-color: rgba(182, 181, 181, 0.5);
+}
